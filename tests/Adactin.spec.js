@@ -1,7 +1,7 @@
-import { test } from '@playwright/test'
-import { LoginPage } from '../page/loginpage'
-import { SearchHotel } from '../page/SearchHotel'
-import { SelectHotel } from '../page/SelectHotel'
+import { test } from '@playwright/test';
+import { LoginPage } from '../page/LoginPage.js';
+import { SearchHotel } from '../page/SearchHotel.js';
+import { SelectHotel } from '../page/SelectHotel.js';
 
 test('Page Object Model',async({page}) =>{
     const login = new LoginPage(page)
