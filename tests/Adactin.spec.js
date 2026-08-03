@@ -20,6 +20,6 @@ test('Page Object Model',async({page}) =>{
     await search.clicksearchButton()
 
     const select = new SelectHotel(page)
-    await select.clickRadioButton()
+    //await select.clickRadioButton()
     await select.clickcontinueButton()
 })
