@@ -9,5 +9,5 @@ test('Frame Handling' , async({page})=> {
     const outerframe=await page.frameLocator('//iframe[@src="MultipleFrames.html"]')
     const innerframe = await page.frameLocator('//iframe[@src="SingleFrame.html"]')
     await innerframe.locator('//input[@type="text"]')
-console.log('Hi bro')
+console.log('Hi buddy')
 })
